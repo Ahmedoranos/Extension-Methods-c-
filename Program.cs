@@ -4,7 +4,10 @@ public class Program
 	public static void Main()
 	{
 		string str = "ahmed";
-		string method_result = str.ChangeFirstLetterCase();
+		string method_Result = str.ChangeFirstLetterCase();
+		string result = StringHelper.ChangeFirstLetterCase(str);
+		Console.WriteLine(method_Result);
+		Console.WriteLine(result);
 	}
 }
 public static class StringHelper
